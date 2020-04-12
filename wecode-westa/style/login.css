@@ -1,13 +1,13 @@
 body {
-color: rgba(var(--i1d,38,38,38),1);
-text-align : center;
+   color: rgba(var(--i1d, 38, 38, 38), 1);
+   text-align: center;
 
 }
 
-.loginPageImg{
-text-align: center;
-display: inline;
- margin: 0px auto;
+.loginPageImg {
+   text-align: center;
+   display: inline;
+   margin: 0px auto;
 }
 
 .loginandorid {
@@ -15,33 +15,34 @@ display: inline;
 }
 
 .backgroundImg {
-   border: 1px solid rgba(var(--b6a,219,219,219),1);
+   border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
    border-radius: 1px;
    margin: 0 0 10px;
    padding: 10px 0;
    position: relative;
    width: 430px;
-   top : 20px;
-   display : inline-flex;
+   top: 20px;
+   display: inline-flex;
 }
 
 #needId {
    flex: 1 0 auto;
-    margin: 0;
-    padding: 9px 0 7px 8px;
-    background: rgba(var(--b3f,250,250,250),1);
-    border: 0;
-}
-#needPwd{
-   flex: 1 0 auto;
    margin: 0;
    padding: 9px 0 7px 8px;
-   background: rgba(var(--b3f,250,250,250),1);
+   background: rgba(var(--b3f, 250, 250, 250), 1);
    border: 0;
 }
 
-p{
-   background-color: rgba(var(--b38,219,219,219),1);
+#needPwd {
+   flex: 1 0 auto;
+   margin: 0;
+   padding: 9px 0 7px 8px;
+   background: rgba(var(--b3f, 250, 250, 250), 1);
+   border: 0;
+}
+
+p {
+   background-color: rgba(var(--b38, 219, 219, 219), 1);
    height: 1px;
    position: relative;
    top: .45em;
@@ -49,46 +50,47 @@ p{
    flex-grow: 1;
 }
 
-#test_btn1{ 
+#test_btn1 {
    margin-top: 20px;
- }
- #test_btn1 button{  
-   background-color: #badffa; /* Green */
+}
+
+#test_btn1 button {
+   background-color: #badffa;
+   /* Green */
    border: none;
    color: white;
    font-size: 16px;
    cursor: pointer;
-    font-weight: 300px;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-     margin-top: 10px;
-    text-transform: inherit;
-    text-overflow: ellipsis;
-    width: 330px;
- }
-
-#form
-{
-  font-size: 1.3em;
-  display: inline-block;
-  padding: 20px;
-  text-align: center;
-}
-::placeholder
-{
-  font-size: 1.1em;
+   font-weight: 300px;
+   padding: 5px;
+   text-align: center;
+   text-decoration: none;
+   margin-top: 10px;
+   text-transform: inherit;
+   text-overflow: ellipsis;
+   width: 330px;
 }
 
-.downloadPicture img{
-  
+#form {
+   font-size: 1.3em;
+   display: inline-block;
+   padding: 20px;
+   text-align: center;
+}
+
+::placeholder {
+   font-size: 1.1em;
+}
+
+.downloadPicture img {
+
    width: 130px;
    height: 50px;
-   
+
 }
 
-.backgroundImg img{
-  margin-top: 30px;
+.backgroundImg img {
+   margin-top: 30px;
 }
 
 .usernameinput {
@@ -105,24 +107,24 @@ p{
 }
 
 .userLabel {
-    flex: auto;
-    padding: 0;
-    position: relative;
-    margin: 20px;
-    display: flex;
-    width: 330px;
-    height: 40px;
+   flex: auto;
+   padding: 0;
+   position: relative;
+   margin: 20px;
+   display: flex;
+   width: 330px;
+   height: 40px;
 }
 
 .forgotPwd {
    margin-top: 55px;
-   color: #00376b;  
+   color: #00376b;
    font-size: 14px;
    text-align: center;
 }
 
-.forgotPwd .forgetPwd{
-  
+.forgotPwd .forgetPwd {
+
    line-height: 14px;
- 
+
 }
