@@ -1,0 +1,483 @@
+* {
+    box-sizing: border-box;   
+}
+/* .instamain {
+   align-items: center;
+   height: 54px;
+   border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+   position: relative;
+    top: 0;
+    transition: height .2s ease-in-out;
+    width: 100%;
+    z-index: 3;
+} */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.topNav{
+    /* padding: 0 150px; */
+    border-bottom: 1px solid #dbdbdb;    
+    height: 54px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContainer {
+    width: 935px;
+    height: 54px;    
+    display: flex;
+    /* flex-direction: row;  */
+    justify-content: space-between;
+    align-items: center;  
+    
+}
+
+.navLeft {
+    /* margin-left: 20px; 
+    margin-top: 30px; */
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+}
+
+.imgLine {
+    border-left: 1px solid black;
+    height: 29px;
+    margin: 0 20px;
+}
+
+.instaPic {
+    width: 32px;
+    height: 29px;
+}
+
+.instaName {
+   height: 29px;
+}
+
+.findContent{
+    display: flex;
+    
+}
+
+.searchImg img{
+    height: 10px;
+    width: 10px;
+}
+
+.searchInput {
+   /* background-color: #dbdbdb;*/
+    border-color: none;
+    border-radius: 1px;
+}
+
+/* .searchInput::placeholder{
+     background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png"); 
+    background-repeat: no-repeat;
+     height: 5px;
+    width: 5px;
+    background-color: #dbdbdb;
+    display: flex;
+} */
+.input {
+    /* background-color: rgba(var(--b3f,250,250,250),1); */
+    margin: auto;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    background-color: #fafafa;
+    position: relative;
+}
+
+.input img {
+    position: absolute;
+    width : 17px;
+    top : 10px;
+    right: 12px;
+    margin: 0;
+}
+.topRight { 
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 50px;
+    margin-top : 25px; */
+    /* align-self: start; */
+}
+
+.topRight img {
+    margin-left: 22px;
+    height: 22px;
+    width: 22px;
+}
+
+.downloadpicture {
+    height: 30px;
+    width: 30px;
+}
+
+.mainBackground {
+    display: flex;
+    justify-content: center;
+    padding : 30px 0 0;
+   }
+
+.mainAll {
+    display: flex;
+}
+
+.allMain{
+    
+    /* width: 700px; */
+    /* margin: 0 auto; */
+    /* padding: 30px;   */
+    /* margin-top : 50px;
+    margin-left: 100px;
+    margin-right: 400px; */
+}
+
+.feeds {
+    /* height: 800px; */
+    margin-right: 28px;
+    max-width: 614px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.feedAll {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedName {
+    width: 100px;
+    display: flex;
+   justify-content: flex-start;
+}
+
+.feedImg {   
+    margin : auto;
+}
+.taeyeonName {
+    margin : auto;
+}
+.feedRight{
+    display: flex;
+    justify-content: flex-end;
+}
+.idImoji {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+   margin: 10px 10px;
+}
+.articleContent{
+    display: flex;    
+}
+
+.articleContent img {
+    width: 100%;   
+}
+
+.imoji {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+}
+.articleImoji {
+    display: flex;
+   flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.articleImoji img{
+    height: 30px;
+    width: 27px;
+    margin-right: 13px;
+    
+}
+.rightImoji {
+    display: flex;
+   justify-self:flex-end;;
+    margin-right: 5px;
+}   
+
+.rightImoji img{
+      height: 30px;
+    width: 29px;
+    margin-right: 15px;
+}
+.reply {
+    display: flex;
+}
+.replyimoji {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+   margin: 10px 10px;
+}
+
+.replyImg {
+ /* display: inline; */
+   background-color: #fafafa;
+}
+
+.replyImg1 {
+    margin-top: 10px;
+}
+
+.replyContent {
+    display: flex;
+}
+
+.replyId {
+    margin-left: 13px;
+    font-weight: bold
+}
+
+.replyInContent{
+    margin-left: 10px;
+}
+
+.boldWeight{
+    font-weight: bold;
+}
+.replyMiddle {
+    display: flex;
+    margin-left: 5px;
+  }
+  
+.replymidFirst{
+    margin : 10px 0 0 10px;
+}
+.replymIdLast {
+    margin : 10px 0 0 10px;
+    color: gray;
+    font-weight: bold;
+}
+
+.replyMinute {
+    margin: 10px 0 0 15px;
+    color: gray;
+    font-weight: bold;
+    width: 100%;
+    font-size: 8px;
+}
+
+.hrLine {
+    border-bottom: 1px solid #dbdbdb;
+    width: 100%;
+    margin-top: 10px;
+}
+.replyInput {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.replyIn
+ {
+   border: 0px;
+   width: 554px;
+   height: 18px;
+   margin-left: 10px;
+   background-color:transparent;
+ }
+
+ .replyTop {
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 10px;
+ }
+
+.addDiv {
+    margin-top: 10px;
+}
+ .addPlace span{
+    margin-left: 15px;    
+ }
+.addDiv a{
+margin : 10px 10px 0 0;
+font-weight: bold;
+
+}
+
+.clickBtn {
+    color:aqua; 
+    /* text-decoration: none; */
+    opacity: .3;
+    border : 0;
+    color: rgba(var(--d69,0,149,246),1);
+    padding: 10px 10px 0 0;
+ }
+
+.mainTopRight{
+   width: 293px;
+}
+
+.main-Right {
+   display: flex;
+   width: 293px;
+}
+
+.rightWecode img {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.pName{
+     font-size: 18px;
+     width: 138px;
+}
+
+.pNameIsGray {
+    width: 138px;
+    color : gray;
+    margin-bottom: 15px;
+}
+
+.main-rightBottom{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.topRightName {
+    margin-left: 14px;
+}
+
+.story {
+    border: 1px solid #dbdbdb;
+    height: 233px;
+    margin-top: 5px;
+}
+
+.storyTop {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.storyKorean {
+    color : gray;
+    font-weight: bold;
+}
+
+.storySeeall{
+    font-size: 13px;
+    font-weight: bold;
+}
+.storyAllPic {
+    display: flex;
+    padding: 10px 16px 1px 15px;
+}
+
+.storyPic img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.storyId {
+    margin: 0 0 0 14px;
+    font-size: 13px;
+}
+.storyTime {
+    margin: 10px 0 0 14px;
+    font-size: 10px;
+    color: gray;
+}
+
+.reCommend {
+    border: 1px solid #dbdbdb;
+    height: 233px;
+    margin: 15px 0;
+}
+
+.recommendTop {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.recommendKorean {
+    color : gray;
+    font-weight: bold;
+}
+
+.recommendSeeall{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.recommendAll{
+    display: flex;   
+}
+.recommendAllPic {
+    display: flex;
+    padding: 10px 16px 1px 15px;
+   
+}
+
+.recommendPic img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.recommendContent{
+    width: 167px;
+}
+.recommendId {
+    margin: 0 0 0 14px;
+    font-size: 13px;
+}
+.recommendTime {
+    margin: 10px 0 0 14px;
+    font-size: 10px;
+    color: gray;
+    width: 167px;
+}
+
+.recommendFollow{
+    margin-top : 10px;
+    font-size : 13px;
+    font-weight: bold;
+    color: #0095f6;
+}
+
+.right-Bottom{
+    margin-bottom: 16px;
+    max-width: 100%;
+}
+
+.ulTag{
+    display: flex;
+    color : #c7c7c7;
+    margin: 0 16px 15px 0;
+    flex-grow: 3px;
+}
+
+.liWidth {
+    color: #c7c7c7;
+    font-weight: 400;
+    line-height: 13px;
+    text-transform: none;
+}
+
+.aWidth {
+    color: #c7c7c7;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    text-decoration: none;
+}
+
+.right-Span{
+    color: #c7c7c7;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+}
+
