@@ -31,10 +31,6 @@ function clickButton() {
    const addp = document.createElement('span');
    addId.innerHTML = "taeyeonnnnn";
 
-
-   
-
-
    const divEnd = hereIsEvent.appendChild(adddiv);
    const addEnd2 = divEnd.appendChild(addp);
    const addEnd3 = addEnd2.appendChild(addId);
