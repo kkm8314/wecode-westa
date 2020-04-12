@@ -1,6 +1,6 @@
-const thisIsButton = document.getElementById('logbutton');
-const thisIsid = document.getElementById('needid');
-const thisIspwd = document.getElementById('needpwd');
+const thisIsButton = document.getElementById('logButton');
+const thisIsid = document.getElementById('needId');
+const thisIspwd = document.getElementById('needPwd');
 
 const checkIdpwd = () => {
    console.log('checkIdpwd');
