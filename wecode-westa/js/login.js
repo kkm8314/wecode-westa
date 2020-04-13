@@ -11,6 +11,5 @@ const checkIdpwd = () => {
    }
 };
 
-// thisIsid.addEventListener('keyup',Checkip);
-// thisIspwd.addEventListener('keyup',Checkip);
+
 document.addEventListener('keyup', checkIdpwd)

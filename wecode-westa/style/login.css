@@ -5,13 +5,7 @@ body {
 }
 
 .loginPageImg {
-   text-align: center;
-   display: inline;
    margin: 0px auto;
-}
-
-.loginandorid {
-   border-radius: 8px;
 }
 
 .backgroundImg {
@@ -83,7 +77,6 @@ p {
 }
 
 .downloadPicture img {
-
    width: 130px;
    height: 50px;
 
@@ -91,19 +84,6 @@ p {
 
 .backgroundImg img {
    margin-top: 30px;
-}
-
-.usernameinput {
-   color: #8e8e8e;
-   font-size: 12px;
-   height: 36px;
-   left: 8px;
-   line-height: 36px;
-   overflow: hidden;
-   pointer-events: none;
-   position: absolute;
-   right: 0;
-   text-overflow: ellipsis;
 }
 
 .userLabel {
