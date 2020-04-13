@@ -2,25 +2,13 @@
     box-sizing: border-box;
 }
 
-/* .instamain {
-   align-items: center;
-   height: 54px;
-   border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
-   position: relative;
-    top: 0;
-    transition: height .2s ease-in-out;
-    width: 100%;
-    z-index: 3;
-} */
 body {
     font-family: 'Times New Roman', Times, serif;
 }
 
 .topNav {
-    /* padding: 0 150px; */
     border-bottom: 1px solid #dbdbdb;
     height: 54px;
-    /* background-color: white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,16 +18,11 @@ body {
     width: 935px;
     height: 54px;
     display: flex;
-    /* flex-direction: row;  */
     justify-content: space-between;
     align-items: center;
-
 }
 
 .navLeft {
-    /* margin-left: 20px; 
-    margin-top: 30px; */
-    /* height: 100px; */
     display: flex;
     align-items: center;
 }
@@ -70,21 +53,11 @@ body {
 }
 
 .searchInput {
-    /* background-color: #dbdbdb;*/
     border-color: none;
     border-radius: 1px;
 }
 
-/* .searchInput::placeholder{
-     background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png"); 
-    background-repeat: no-repeat;
-     height: 5px;
-    width: 5px;
-    background-color: #dbdbdb;
-    display: flex;
-} */
 .input {
-    /* background-color: rgba(var(--b3f,250,250,250),1); */
     margin: auto;
     width: 180px;
     height: 25px;
@@ -104,9 +77,7 @@ body {
 .topRight {
     display: flex;
     justify-content: space-between;
-    /* margin-right: 50px;
-    margin-top : 25px; */
-    /* align-self: start; */
+ 
 }
 
 .topRight img {
@@ -130,18 +101,7 @@ body {
     display: flex;
 }
 
-.allMain {
-
-    /* width: 700px; */
-    /* margin: 0 auto; */
-    /* padding: 30px;   */
-    /* margin-top : 50px;
-    margin-left: 100px;
-    margin-right: 400px; */
-}
-
 .feeds {
-    /* height: 800px; */
     margin-right: 28px;
     max-width: 614px;
     width: 100%;
@@ -235,7 +195,6 @@ body {
 }
 
 .replyImg {
-    /* display: inline; */
     background-color: #fafafa;
 }
 
@@ -324,7 +283,6 @@ body {
 
 .clickBtn {
     color: aqua;
-    /* text-decoration: none; */
     opacity: .3;
     border: 0;
     color: rgba(var(--d69, 0, 149, 246), 1);
@@ -360,7 +318,6 @@ body {
 .main-rightBottom {
     display: flex;
     justify-content: center;
-
 }
 
 .topRightName {
